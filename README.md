@@ -1,4 +1,4 @@
-# Motoman
+# Motoman - inertial
 
 [![license - Apache-2.0](https://img.shields.io/:license-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![license - BSD-3-Clause](https://img.shields.io/:license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -19,6 +19,9 @@ Launch files are not yet provided.
 
 The various `joint_names_...yaml` files are also no longer included, as those are not needed (they were only used by `motoman_driver`, which is no longer used).
 
+
+## Changes wrt ROS2 version
+Added inertial tag for the gp25. Filled with dummy values.
 
 ## Building
 
