@@ -5,21 +5,6 @@ moveit_setup_assistant_config:
   srdf:
     relative_path: config/motoman_gp25.srdf
   package_settings:
-    author_name: Mink Verschure
+    author_name: Mink
     author_email: m.verschure@student.tudelft.nl
-    generated_timestamp: 1708602803
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
-  modified_urdf:
-    xacros:
-      - control_xacro
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
+    generated_timestamp: 1708963725
